@@ -10,10 +10,20 @@ a{
     color:rgb(0, 0, 0)
 }
 #principal{
-    background-color: rgba(65, 62, 62, 0.329);
     display: block;
+    background-color: rgba(110, 109, 107, 0.199);
+}
+
+.nome_loja{
+    background-color: rgba(99, 30, 30, 0.329);
+    margin-top: 5px;    
+    margin-right: 800px;  
+    margin-bottom: 5px; 
+    margin-left: 800px;
+    border-radius: 800%;   
     
 }
+
 #logo{
     align-items: center;
     min-height: 50px;
@@ -31,10 +41,20 @@ a{
     padding: 0px 34px;
     min-height: 70px;
     justify-content: center;
-    background-color: rgb(90, 38, 233);
     
-}   
+    
+}
 
+nav{
+    background-color: rgb(77, 92, 179);
+}
+
+
+.catalogo{
+
+    border-bottom: 2px solid black;
+    
+}
 .catalogo_link{
     transition: 0.5s ease;
 }
@@ -43,14 +63,6 @@ a{
     color:rgba(240, 240, 240, 0.849)
 }
 
-img{
-    height: 400px; width: 400px;
-    padding: 0;
-    display: inline-block;
-    border-radius: 8px;
-    text-align: center;
-    margin: 29px  
-}
 
 .impressora_3d{
     display: flex;
@@ -59,17 +71,17 @@ img{
     font-size: 130%;
 
 }
-.impressora{
-    margin-right: 5px;
+#impressora{
+    margin-right: 4px;
     height: 400px; width: 400px;
+    border-radius: 6px;
+    
 }
 
 .descricao_impressora{
     color: aliceblue;
     margin-left: 70px;
-    text-align:center
-    
-    
+    text-align:center  
     
 }
 .cabeça{
@@ -77,11 +89,71 @@ img{
     font-size: 150%;
 }   
 
+#algum_de_nossos_produtos{
+    position: relative;
+    width: 100%;
+    max-width: 600px; 
+    margin: auto;
+    overflow: hidden;
+    height: 600px; 
+    border-radius: 10px;
+    
+}
+.slides{
+    display: flex;
+    animation: slideAnimation 25s infinite;
+}
+.slides img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+  }
+  
+@keyframes slideAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-100%);
+    }
+    45% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    70% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(-300%);
+    }
+    95% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
 
 @media screen and (max-width: 768px) {
     .menu_principal{
         width: 100px;
-        flex-direction: column;
+        -ms-flex-item-align: auto;
+        margin-left: 100px;
+        gap:15px    
     }
     
+    .nome_loja{
+        width: 100px;
+        -ms-flex-item-align: auto;
+        margin-left: 100px;
+        gap:15px    
+    }
 }
+    
