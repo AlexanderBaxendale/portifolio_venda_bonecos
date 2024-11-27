@@ -9,19 +9,39 @@ a{
     text-decoration: none;
     color:rgb(0, 0, 0)
 }
-#principal{
-    display: block;
-    background-color: rgba(110, 109, 107, 0.199);
-}
+
+
 
 .nome_loja{
-    background-color: rgba(99, 30, 30, 0.329);
-    margin-top: 5px;    
-    margin-right: 800px;  
-    margin-bottom: 5px; 
-    margin-left: 800px;
-    border-radius: 800%;   
+    border-style: solid black;
+    width: 50%; 
+    margin: auto;
+    border-radius: 50px; 
+   height: 100%;
     
+}
+
+.tela_inicial{
+    
+    border-radius: 30px;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#sub_titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 120%;
 }
 
 #logo{
