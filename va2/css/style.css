@@ -10,6 +10,10 @@ a{
     color:rgb(0, 0, 0)
 }
 
+body{
+    background-color: rgb(230, 230, 230);
+}
+
 .sub{
    font-size: 120%;
 }
@@ -17,10 +21,11 @@ a{
 #logo_loja{
     display: flex;
     justify-content: left;
-    height: 450px;
-    width: 450px;
-    margin-top: -70px;
-    margin-bottom: -180px;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 70px;
+    margin-top: -20px;
+    
 }
 
 .nome_loja{
@@ -40,7 +45,7 @@ a{
     border-radius: 30px;
     width: 50%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 150px;
     margin-bottom: 30px;
    
 }
@@ -63,11 +68,12 @@ a{
 .menu_principal{
     align-items: center;
     display: flex;
-    gap: 50px;
+    gap: 40px;
     padding: 0px 34px;
     min-height: 70px;
     justify-content: center;
-    margin-top: -380px;
+    margin-top: -300px;
+    
     
     
 }
@@ -80,6 +86,7 @@ nav{
 .catalogo{
 
     border-bottom: 2px solid black;
+    font-size: 130%;
     
 }
 .catalogo_link{
@@ -90,7 +97,11 @@ nav{
     color:rgba(240, 240, 240, 0.849)
 }
 
-
+#imagem_gente{
+    margin-right: 4px;
+    height: 500px; width: 500px;
+    border-radius: 6px;
+}
 .impressora_3d{
     display: flex;
     align-items: center;
@@ -130,7 +141,7 @@ p{
     overflow: hidden;
     height: 800px; 
     border-radius: 10px;
-    margin-top: 70px;
+    margin-top: -170px;
     
 }
 
