@@ -4,52 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <title>Nome da loja</title>
 </head>
-<body>
-    <header id="principal">
-         <img src="img/Pedro_workshopping-sem-fundo.png" alt="logo da loja" id="logo_loja">
-        <nav >
-            <ul class="menu_principal">
-                <il class="catalogo"><a href="#" class="catalogo_link"> Miniaturas do Warhammer</il></a>
-                <il class="catalogo"><a href="#" class="catalogo_link"> Miniaturas do Blizzard</il></a>
-                <il class="catalogo"><a href="#" class="catalogo_link"> Miniaturas do Halo</il></a>
-                <il class="catalogo"><a href="#" class="catalogo_link"> Miniaturas do Star Wars</il></a>
-            </ul>
-        </nav>
+<body class = "body">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo_transparente.png" alt="Pedro's 3D Workshop Logo" class="img-fluid" style="width: 100px; height: 100px"> <!-- Logo responsiva usando a classe img-fluid do bootstrap-->
+            </a>
+            <!--Botão hamburguer-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Menu colapsavel(consegue ficar expandido ou recolhido pra economizar espaço na tela)-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="">Como funciona impressão 3D</a></li>
+                    <li class="nav-item"><a class="nav-link" href="warhammer.html">Miniaturas do Warhammer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blizzard.html">Miniaturas da Blizzard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="halo.html">Miniaturas do Halo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="star-wars.html">Miniaturas do Star Wars</a></li>
+                    <li class="nav-item"><a class="nav-link" href="outros.html">Outros</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    </header>
 
-    <div  class="tela_inicial">
-        <h1 id="titulo">Bem-Vindo a pagina inicial</h1><br>
+    <div  class="tela_inicial" class="cabeça">
+        <h1 id="titulo">BEM-VINDO <br> A <br>PEDRO 3D WORKSHOPPING</h1><br>
         <p1 id="sub_titulo"> Loja especializada em impressão de modelagem 3D</p1>
     </div><br>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> <!--Responsividade via JS do Boostrap-->
     
     <br><br>
     
-    <h4 class="cabeça" ></h5><br>
-        <div id="algum_de_nossos_produtos" class="div"><br>
+    <h4 class="cabeça" ></h4><br>
+        <div id="algum_de_nossos_produtos" ><br>
             <div class="slides">
-                <img class="imagem"  src="img/como-criar-prompts-para-geracao-de-imagens-com-ia.webp" alt="#">
-                <img class="imagem"  src="img/meramente ilustrativo.png" alt="#">
-                <img class="imagem"  src="img/inteligencia-artificial-aprende-a-reconstruir-imagens-vistas-por-pessoas-ciencia-fotos-1679175318563_1280.webp" alt="#">
-                <img class="imagem"  src="img/imagine.art-ai-2.avif" alt="#">
+                <img class="imagem"  id="tryranid"  src="img/tryraind.jpeg" alt="#">
+                <img class="imagem"  src="img/WhatsApp Image 2024-12-03 at 17.58.17.jpeg" alt="#">
+                <img class="imagem"  src="img/Marine.jpeg" alt="#">
+                <img class="imagem"  src="img/clonesmagrosStarwars.jpeg" alt="#">
             </div>
         </div>
         
-        <div class="div"><br>
-            <h2 id="nossa_loja" class="cabeça">Um pouco sobre a nossa Loja:</h2><br>
-            <img src="img/velhas.jpg" alt="imagem de pessoas jogando" id="imagem_gente">
-            <p2 class="sub">Somos um empresa focada na criação de Bonecos de impressão 3d, onde que nosso pricipal objetivo é trazer a alegria e emoção para os nossos clientes,
-                trazendo á vida dos  seus personagens favoritos para a vida real, atraves da arte da impressão 3d. <br>Além de temos uma ótimo catalogo de produtos de alta qualidade!
-            </p2>
-        </div>
+        <h2  class="cabeça">Um pouco sobre a nossa Loja:</h2><br>
+            <div class="div"><br>
+                    <img src="img/reuniao.jpeg" alt="imagem de pessoas jogando" id="imagem_gente">
+                    <p2 id="descricao_nossa_loja" class="sub">A Pedro 3D Workshopping é a sua loja especializada em bonecos 3D personalizados, feitos com a mais alta tecnologia de impressão 3D.<br> 
+                        Oferecemos uma ampla gama de modelos, desde figuras colecionáveis de personagens de filmes, séries e jogos até opções personalizadas. <br>Nossos produtos são criados com materiais de qualidade e acabamentos 
+                        detalhados para garantir durabilidade e um design impressionante.<br> Se você busca uma peça única para sua coleção ou um presente criativo, <br>a a Pedro 3D Workshopping é o lugar ideal para encontrar bonecos 3D que encantam e surpreendem!
+                    </p2>     
+            </div>
     <br><br>
 
-    <h3 class="cabeça">Nossa Impressora:</h3>
+    <h3 class="cabeça" >Nossa Impressora:</h3>
 
-    <br><br>
+    <br>
 
     <div class="impressora_3d">
         <img src="img/impressora.jpg" alt="impressora saturn" id="impressora">
