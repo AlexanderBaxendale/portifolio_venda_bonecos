@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <title>Nome da loja</title>
 </head>
-<body class = "body">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<body class="body">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-tip">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="img/logo_transparente.png" alt="Pedro's 3D Workshop Logo" class="img-fluid" style="width: 100px; height: 100px"> <!-- Logo responsiva usando a classe img-fluid do bootstrap-->
+                <img src="img/logo_transparente.png" alt="Logo" style="width: 100px; height: auto;">
             </a>
-            <!--Botão hamburguer-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!--Menu colapsavel(consegue ficar expandido ou recolhido pra economizar espaço na tela)-->
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="">Como funciona impressão 3D</a></li>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Como funciona impressão 3D</a></li>
                     <li class="nav-item"><a class="nav-link" href="warhammer.html">Miniaturas do Warhammer</a></li>
                     <li class="nav-item"><a class="nav-link" href="blizzard.html">Miniaturas da Blizzard</a></li>
                     <li class="nav-item"><a class="nav-link" href="halo.html">Miniaturas do Halo</a></li>
@@ -32,62 +33,141 @@
     </nav>
 
 
-    <div  class="tela_inicial" class="cabeça">
-        <h1 id="titulo">BEM-VINDO <br> A <br>PEDRO 3D WORKSHOPPING</h1><br>
+
+    <div class="tela_inicial" class="cabeça">
+        <h1 id="titulo">BEM-VINDO <br> A <br>PEDRO'S 3D WORKSHOP</h1><br>
         <p1 id="sub_titulo"> Loja especializada em impressão de modelagem 3D</p1>
     </div><br>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> <!--Responsividade via JS do Boostrap-->
-    
-    <br><br>
-    
-    <h4 class="cabeça" ></h4><br>
-        <div id="algum_de_nossos_produtos" ><br>
-            <div class="slides">
-                <img class="imagem"  id="tryranid"  src="img/tryraind.jpeg" alt="#">
-                <img class="imagem"  src="img/WhatsApp Image 2024-12-03 at 17.58.17.jpeg" alt="#">
-                <img class="imagem"  src="img/Marine.jpeg" alt="#">
-                <img class="imagem"  src="img/clonesmagrosStarwars.jpeg" alt="#">
+
+    <h4 class="cabeça"></h4><br>
+    <div id="algum_de_nossos_produtos"><br>
+        <div class="slides">
+            <img class="imagem" id="tryranid" src="img/tryraind.jpeg" alt="#">
+            <img class="imagem" src="img/WhatsApp Image 2024-12-03 at 17.58.17.jpeg" alt="#">
+            <img class="imagem" src="img/Marine.jpeg" alt="#">
+            <img class="imagem" src="img/clonesmagrosStarwars.jpeg" alt="#">
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center">Um pouco sobre a nossa loja</h2>
+        <div class="row align-items-center mt-4">
+            <div class="col-md-4">
+                <img src="img/reuniao.jpeg" class="img-fluid rounded" alt="Pessoas jogando">
+            </div>
+            <div class="col-md-6 text-center text-md-start">
+                <p>A Pedro's 3D Workshop é a sua loja especializada em bonecos 3D personalizados, feitos com a mais alta
+                    tecnologia de impressão 3D.
+                    Oferecemos uma ampla gama de modelos, desde figuras colecionáveis de personagens de filmes, séries e
+                    jogos até opções personalizadas.
+                    Nossos produtos são criados com materiais de qualidade e acabamentos detalhados para garantir
+                    durabilidade e um design impressionante.
+                </p>
             </div>
         </div>
-        
-        <h2  class="cabeça">Um pouco sobre a nossa Loja:</h2><br>
-            <div class="div"><br>
-                    <img src="img/reuniao.jpeg" alt="imagem de pessoas jogando" id="imagem_gente">
-                    <p2 id="descricao_nossa_loja" class="sub">A Pedro 3D Workshopping é a sua loja especializada em bonecos 3D personalizados, feitos com a mais alta tecnologia de impressão 3D.<br> 
-                        Oferecemos uma ampla gama de modelos, desde figuras colecionáveis de personagens de filmes, séries e jogos até opções personalizadas. <br>Nossos produtos são criados com materiais de qualidade e acabamentos 
-                        detalhados para garantir durabilidade e um design impressionante.<br> Se você busca uma peça única para sua coleção ou um presente criativo, <br>a a Pedro 3D Workshopping é o lugar ideal para encontrar bonecos 3D que encantam e surpreendem!
-                    </p2>     
+    </div>
+
+
+    <div class="container my-5">
+        <h3 class="text-center">Nossa Impressora</h3>
+        <div class="row align-items-center mt-4">
+            <div class="col-md-6">
+                <img src="img/impressora.jpg" class="img-fluid rounded" width="60%" alt="Impressora Saturn">
             </div>
-    <br><br>
-
-    <h3 class="cabeça" >Nossa Impressora:</h3>
-
-    <br>
-
-    <div class="impressora_3d">
-        <img src="img/impressora.jpg" alt="impressora saturn" id="impressora">
-        <p3 id="descricao_impressora" class="sub">A Impressora 3D Saturn da Elegoo é uma impressora de resina de alta qualidade, projetada para oferecer uma excelente precisão em impressões 3D.
-            <br> Com uma área de impressão generosa de 218 x 123 x 235 mm, a Saturn se destaca pela sua capacidade de produzir detalhes incríveis e <br>superfícies suaves, ideal para modelos complexos e figurinas  
-        </p3>
+            <div class="col-md-4 text-center text-md-start">
+                <p>A Impressora 3D Saturn da Elegoo é uma impressora de resina de alta qualidade, projetada para
+                    oferecer uma excelente precisão em impressões 3D.
+                    Com uma área de impressão generosa de 218 x 123 x 235 mm, a Saturn se destaca pela sua capacidade de
+                    produzir detalhes incríveis e superfícies suaves.
+                </p>
+            </div>
+        </div>
     </div>
-     
-    <div class="nossa_equipe">
-        <h5 class="cabeça">Sobre a nossa equipe:</h5>
-            <p1 class="sub">Nossa equipe é formada por três integrantes:
-                <ul class="descricao_equipe"><br>
-                    <il>Pedro Neto - Diretor de Produção e Operações : Responsável por garantir que os modelos sejam impressos com qualidade, no tempo correto, e com os materiais adequados. Também é responsável pelo controle de qualidade e a manutenção das impressoras 3D.</il>
-                    <br>
-                    <il>Rodrigo Santos - Diretor de Design e Modelagem 3D : Responsável por liderar a equipe de design, criando e ajustando os modelos 3D que serão impresso. É também trabalhará em estreita colaboração com os clientes para transformar suas ideias em modelos 3D </il>
-                    <br>
-                    <il>Alexander Augusto -  Gerente de Desenvolvimento de Negócios : Responsável por estabeçecer  parcerias comerciais, captação de clientes e marketing, sendo o principal ponto de contato com clientes e investidores</il>
-                    <br>
-                </ul>
-            </p1>
+    <div class="container my-5">
+        <h3 class="text-center">Funcionamentos e Manutenção</h3>
+        <p class="text-center">Pequena exposição Sobre os processos</p>
+        <div class="row align-items-center mt-4">
+            <div class="col-md-6">
+                <img src="img/manutencao.jpg" class="img-fluid rounded" width="100%" alt="Impressora Saturn">
+            </div>
+            <div class="col-md-4 text-center text-md-start">
+                <p>A manutenção da impressora é importantíssimo para o a longevidade
+                    da maquina, requerendo que constantemente o propietário averigue a integridade do EPF
+                    O EPF(etileno propileno fluorado) é um "plastico" isolante que apresenta exelentes propiedades
+                    térmicas, mecânicas e químicas, que é utilizado como fundo da "bacia" de resina da impressora, onde
+                    este
+                    está em contato direto com a tela de LCD
+                    A tela de LCD é o componente mais sensível da impressora, onde caso haja um derramamento de resina
+                    sobre ela, deve-se limpar-lá imediatemente para que a resina não cure sobre a tela e a danifice,
+                    também
+                    arranhões ou pancadas podem diretamente danificar a qualidade física das impressões
+                    </p3>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <h3 class="text-center">Programa de Modelação</h3>
+        <div class="row align-items-center mt-4">
+            <div class="col-md-6">
+                <img src="img/renderizacao.jpg" class="img-fluid rounded" width="70%" alt="Impressora Saturn">
+            </div>
+            <div class="col-md-4 text-center text-md-start">
+                <p>Para imprimir nestas máquinas são
+                    necessários programas específicos, como por exemplo o Chitubox e o LycheeSlicer, que possuem versões
+                    gratuitas que os usuarios podem utilizar sem dor de cabeça.
+                    >Nós utilizamos o slicer Chitubox, pois a marca da Elegoo envia junto as suas impressoras um
+                    pendrive com
+                    o instalador do programa, para que o consumidor tenha tudo necessário para imprimir ao montar sua
+                    impressora.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <h3 class="text-center">Boneco Quando sai da Resina</h3>
+        <div class="row align-items-center mt-4">
+            <div class="col-md-6">
+                <img src="img/epi.jpg" class="img-fluid rounded" width="60%" alt="Impressora Saturn">
+            </div>
+            <div class="col-md-4 text-center text-md-start">
+                <p>As impressoras de resina, como funcionam com uma tela que projeta
+                    luz UV para curar a resina nos locais programados, estas, podem imprimir toda a área da mesa de
+                    impressão
+                    sem acressimo de tempo
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <h3 class="text-center">Tempo Total</h3>
+        <div class="row align-items-center mt-4">
+            <div class="col-md-6">
+                <img src="img/tempo.jpg" class="img-fluid rounded" width="60%" alt="Impressora Saturn">
+            </div>
+            <div class="col-md-4 text-center text-md-start">
+                <p> Dependendo da forma como você modela o arquivo, como no nosso casa dividimos as peças, a media de
+                    tempo que cada boneco fica pronto é de no mínimo 6 horas
+                </p>
+            </div>
+        </div>
     </div>
 
-
-
-
-
+    <div class="container my-5">
+        <h4 class="text-center">Sobre a nossa equipe</h4>
+        <div class="mt-4">
+            <ul>
+                <li><strong>Pedro Neto:</strong> Diretor de Produção e Operações, responsável pelo controle de qualidade
+                    e manutenção das impressoras 3D.</li>
+                <li><strong>Rodrigo Santos:</strong> Diretor de Design e Modelagem 3D, responsável por criar e ajustar
+                    os modelos 3D.</li>
+                <li><strong>Alexander Augusto:</strong> Gerente de Desenvolvimento de Negócios, responsável por
+                    parcerias e captação de clientes.</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Javascript que faz o menu hamburguer ficar responsivo junto com o Navbar-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
