@@ -6,13 +6,12 @@
 
 body {
     color: #2D2D2D;
-    /* Texto principal em cinza escuro */
+    
     font-family: Arial, sans-serif;
     background-color: #F4F4F9;
-    /* Fundo claro */
 }
 
-/* Barra de Navegação */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -33,26 +32,26 @@ body {
 .navbar-brand,
 .nav-link {
     color: #FFFFFF;
-    /* Links em branco */
+    
     text-decoration: none;
 }
 
 .nav-link:hover {
     color: #F87171;
-    /* Vermelho coral para hover */
+    
 }
 
 .nav-link.active {
     color: #FBBF24;
-    /* Amarelo destaque */
+    
 }
 
-/* Botões */
+
 .btn {
     background-color: #2563EB;
-    /* Azul médio */
+    
     color: #FFFFFF;
-    /* Texto branco */
+    
     border: none;
     border-radius: 4px;
     padding: 10px 20px;
@@ -62,40 +61,40 @@ body {
 
 .btn:hover {
     background-color: #1D4ED8;
-    /* Azul mais escuro */
+    
 }
 
-/* Container principal */
+
 .container {
     background-color: #FFFFFF;
-    /* Fundo branco */
+    
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    /* Sombra mais evidente */
+    
 }
 
-/* Links */
+
 a {
     color: #2563EB;
-    /* Azul médio */
+    
     text-decoration: none;
 }
 
 a:hover {
     color: #F87171;
-    /* Vermelho coral */
+    
 }
 
-/* Subtítulos */
+
 .sub {
     font-size: 1.2rem;
     margin-top: 50px;
     color: #374151;
-    /* Cinza escuro */
+    
 }
 
-/* Tela Inicial */
+
 .tela_inicial {
     border-radius: 30px;
     width: 50%;
@@ -103,17 +102,17 @@ a:hover {
     margin-top: 150px;
     margin-bottom: 30px;
     color: #1F2937;
-    /* Cinza carvão */
+    
 }
 
-/* Títulos */
+
 #titulo {
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 100px;
-    color: #1E3A8A;
-    /* Azul escuro */
+    color: #a83232; 
+    font-weight: bold; 
 }
 
 #sub_titulo {
@@ -121,11 +120,11 @@ a:hover {
     justify-content: center;
     margin-top: 10px;
     font-size: 1.2rem;
-    color: #4B5563;
-    /* Cinza médio */
+    color: #d46a6a; 
+    font-style: italic; 
 }
 
-/* Imagem destacada */
+
 #imagem_gente {
     margin-right: 4px;
     height: 600px;
@@ -135,29 +134,28 @@ a:hover {
     margin-bottom: 20px;
 }
 
-/* Descrição */
+
 #descricao_nossa_loja {
     color: #6B7280;
-    /* Cinza suave */
+    
     margin-right: 580px;
     margin-top: 100px;
     display: flex;
 }
 
-/* Seções */
+
 .div,
 .impressora_3d {
     display: flex;
     align-items: center;
     background-color: #E5E7EB;
-    /* Cinza claro */
     font-size: 1.3rem;
     margin-top: 100px;
     padding: 20px;
     border-radius: 10px;
 }
 
-/* Impressoras */
+
 #impressora {
     margin-right: 4px;
     height: 400px;
@@ -168,20 +166,18 @@ a:hover {
 
 #descricao_impressora {
     color: #374151;
-    /* Cinza escuro */
     margin-left: 50px;
     text-align: center;
 }
 
-/* Cabeçalho */
 .cabeça {
     font-size: 2rem;
     margin-top: 160px;
     color: #1F2937;
-    /* Cinza carvão */
+    
 }
 
-/* Produtos */
+
 #algum_de_nossos_produtos {
     position: relative;
     width: 100%;
@@ -192,7 +188,7 @@ a:hover {
     margin-top: -20px;
 }
 
-/* Slides */
+
 .slides {
     display: flex;
     animation: slideAnimation 25s infinite;
@@ -234,7 +230,7 @@ a:hover {
     }
 }
 
-/* Equipe */
+
 .nossa_equipe,
 .descricao_equipe {
     margin-top: 60px;
@@ -243,7 +239,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     color: #374151;
-    /* Cinza escuro */
+    
 }
 
 @media (max-width: 789px) {
@@ -255,14 +251,6 @@ a:hover {
         width: 145%;
     }
 }
-
-
-
-
-
-
-
-
 
 @media (width: 480px) {
 
