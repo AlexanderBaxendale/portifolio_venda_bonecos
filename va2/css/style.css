@@ -6,10 +6,9 @@
 
 body {
     color: #2D2D2D;
-    /* Texto principal em cinza escuro */
+    
     font-family: Arial, sans-serif;
     background-color: #F4F4F9;
-    /* Fundo claro */
 }
 
 /* Barra de Navegação */
@@ -39,20 +38,20 @@ body {
 
 .nav-link:hover {
     color: #F87171;
-    /* Vermelho coral para hover */
+    
 }
 
 .nav-link.active {
     color: #FBBF24;
-    /* Amarelo destaque */
+    
 }
 
 /* Botões */
 .btn {
     background-color: #2563EB;
-    /* Azul médio */
+    
     color: #FFFFFF;
-    /* Texto branco */
+    
     border: none;
     border-radius: 4px;
     padding: 10px 20px;
@@ -62,7 +61,7 @@ body {
 
 .btn:hover {
     background-color: #1D4ED8;
-    /* Azul mais escuro */
+    
 }
 
 /* Container principal */
@@ -168,7 +167,6 @@ a:hover {
 
 #descricao_impressora {
     color: #374151;
-    /* Cinza escuro */
     margin-left: 50px;
     text-align: center;
 }
@@ -178,7 +176,7 @@ a:hover {
     font-size: 2rem;
     margin-top: 160px;
     color: #1F2937;
-    /* Cinza carvão */
+    
 }
 
 /* Produtos */
